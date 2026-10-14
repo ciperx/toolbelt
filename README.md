@@ -57,12 +57,19 @@ A developer's toolbelt: fast, privacy-first browser tools. Everything runs clien
       <a href="https://tools.codercops.com/invoice-generator"><img src="./.github/assets/og-invoice-generator.png" alt="Invoice Generator"></a>
     </td>
   </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://tools.codercops.com/url-encoder"><img src="./.github/assets/og-url-encoder.png" alt="URL Encoder and Decoder"></a>
+    </td>
+    <td width="50%"></td>
+  </tr>
 </table>
 
-- **[JSON formatter and validator](https://tools.codercops.com/json-formatter).** Format, minify, validate, collapsible tree view, and JSON to CSV / TypeScript / YAML / XML / query string. Large numbers are preserved losslessly.
-- **[JWT decoder and inspector](https://tools.codercops.com/jwt-decoder).** Decode header, payload, and claims; verify HS/RS/PS/ES signatures via WebCrypto; security audit; HS256/384/512 encoder.
-- **[Base64 encoder and decoder](https://tools.codercops.com/base64).** Text, images, and files; URL-safe variant; data URIs; magic-byte detection; Base32/58/85 and hashes.
-- **[Invoice generator](https://tools.codercops.com/invoice-generator).** Live preview, vector PDF export with Unicode currency support, a reusable sender profile, all saved locally.
+- **[JSON Formatter & Validator](https://tools.codercops.com/json-formatter).** Format, minify, validate, collapsible tree view, and JSON to CSV / TypeScript / YAML / XML / query string. Large numbers are preserved losslessly.
+- **[JWT Decoder & Inspector](https://tools.codercops.com/jwt-decoder).** Decode header, payload, and claims; verify HS/RS/PS/ES signatures via WebCrypto; security audit; HS256/384/512 encoder.
+- **[Base64 Encoder & Decoder](https://tools.codercops.com/base64).** Text, images, and files; URL-safe variant; data URIs; magic-byte detection; Base32/58/85 and hashes.
+- **[Invoice Generator](https://tools.codercops.com/invoice-generator).** Live preview, vector PDF export with Unicode currency support, a reusable sender profile, all saved locally.
+- **[URL Encoder & Decoder](https://tools.codercops.com/url-encoder).** Percent-encode a value or a full URL, decode a messy redirect, and break every query param out, duplicates kept in order.
 
 ## Why it exists
 

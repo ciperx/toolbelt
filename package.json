@@ -2,7 +2,7 @@
   "name": "toolbelt",
   "version": "0.6.2",
   "private": true,
-  "description": "A developer's toolbelt: fast, privacy-first browser tools — JSON formatter, JWT decoder, Base64, invoice generator. By CODERCOPS.",
+  "description": "A developer's toolbelt: fast, privacy-first browser tools \u2014 JSON formatter, JWT decoder, Base64, URL encoder, invoice generator. By CODERCOPS.",
   "license": "MIT",
   "author": "CODERCOPS (https://www.codercops.com)",
   "homepage": "https://tools.codercops.com",
@@ -19,6 +19,7 @@
     "jwt-decoder",
     "base64",
     "invoice-generator",
+    "url-encoder",
     "nextjs",
     "privacy",
     "client-side"

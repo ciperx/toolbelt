@@ -103,6 +103,8 @@ npm run lint && npm run test && npm run build
 2. Create `app/(tools)/<slug>/page.tsx`, a `<Name>Client.tsx` client component, and `opengraph-image.tsx`. Copying `page.tsx` and `opengraph-image.tsx` from `app/(tools)/base64/` and changing the slug is the easiest start.
 3. Put pure logic in `lib/<name>.ts` with tests in `lib/__tests__/<name>.test.ts`. Use relative imports in tests; vitest has no `@/` alias.
 4. Add the tool to the "Which tool?" dropdown in `.github/ISSUE_TEMPLATE/bug_report.yml`.
+5. Save the tool's social card as `.github/assets/og-<slug>.png`. Run `npm run dev`, open the tool page, read the `og:image` path from the page source (it ends in a build hash, so copy it rather than guessing), open that path on localhost, and save the PNG. The registry-driven card must stay 1200 x 630.
+6. Update the hand-written lists the registry does not reach: the gallery, the tool list and the share image at the top of `README.md`, the home card's `description` in `lib/og.tsx` (keep it to two lines, and save the regenerated card over `.github/assets/og-home.png`), and `description` and `keywords` in `package.json`.
 
 The home page, metadata, JSON-LD, sitemap, manifest and command palette pick the new tool up from the registry automatically. Several people may be adding tools at the same time, so rebase on `develop` before asking for review.
 
